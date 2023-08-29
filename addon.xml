@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.discord.richpresence"
+  name="Discord"
+  version="0.0.2"
+  provider-name="Mikey">
+<requires>
+  <import addon="xbmc.python" version="3.00.0"/>
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.service" library="default.py" />
+<extension point="xbmc.addon.metadata">
+  <platform>all</platform>
+  <assets>
+	<icon>kodi.png</icon>
+	<fanart>fanart.png</fanart>
+  </assets>
+</extension>
+</addon>
